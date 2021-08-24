@@ -1,13 +1,19 @@
-import * as React from "react";
-import "../style/main.scss";
-import Navbar from "../components/Navbar";
-// markup
-const IndexPage = () => {
-  return (
-    <>
-      <Navbar></Navbar>
-    </>
-  );
-};
+import React, { ReactElement } from "react";
+import About from "../components/About";
+import Project from "../components/Project";
+import Hero from "../components/Hero";
+import Layout from "../components/layout";
+import Stack from "../components/Stack";
 
-export default IndexPage;
+interface Props {}
+
+export default function Index({}: Props): ReactElement {
+  return (
+    <Layout>
+      <Hero />
+      <About />
+      <Stack />
+      <Project />
+    </Layout>
+  );
+}
