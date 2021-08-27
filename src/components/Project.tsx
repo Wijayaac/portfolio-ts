@@ -29,9 +29,12 @@ const Project = () => {
                 beginners, as well as professionals, in building applications
                 quickly
               </p>
-              <Link to="/" className="btn btn-primary">
+              <a
+                href="https://undagicode.com/"
+                target="_blank"
+                className="btn btn-primary">
                 See in detail
-              </Link>
+              </a>
             </div>
           </div>
         </div>

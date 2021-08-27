@@ -2,7 +2,7 @@ import React, { ReactElement } from "react";
 import About from "../components/About";
 import Project from "../components/Project";
 import Hero from "../components/Hero";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import Stack from "../components/Stack";
 
 interface Props {}
